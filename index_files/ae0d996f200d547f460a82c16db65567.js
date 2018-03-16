@@ -1,0 +1,2 @@
+Bootstrapper.bindImmediate(function(){var Bootstrapper=window["Bootstrapper"];var ensightenOptions=Bootstrapper.ensightenOptions;Bootstrapper.registerDataDefinition(function(){Bootstrapper.data.define({extract:function(){try{return window.rs.web.digitalData.page_hierarchy?window.rs.web.digitalData.page_hierarchy:""}catch(e){return"error"}},load:"page",trigger:Bootstrapper.data.bottomOfBodyTrigger,dataDefName:"Content - Page Hierarchy",collection:"Content Pages",source:"Manage",priv:"false"},{id:"23162"})},
+23162)},-1,-1);
